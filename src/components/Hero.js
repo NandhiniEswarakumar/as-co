@@ -12,7 +12,7 @@ export default function Hero(){
             Trusted by contractors for fast delivery and reliable quality across Tiruppur and nearby districts.
           </p>
           <div className="mt-4" style={{display:'flex', gap:12, flexWrap:'wrap'}}>
-            <a className="btn btn-3d primary" href="#services">
+            <a className="btn btn-3d primary" href="/services">
               <i className="fas fa-th-large"></i> Explore Services
             </a>
             <a className="btn outline secondary" href="/contact">
