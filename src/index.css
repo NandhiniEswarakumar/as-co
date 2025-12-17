@@ -401,3 +401,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Home Page - Image Showcase Section */
+.showcase-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.showcase-content {
+  padding: 20px 0;
+}
+
+.showcase-content h2 {
+  
+  font-size: clamp(28px, 5vw, 40px);
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.showcase-content p {
+  font-size: 16px;
+  color: var(--ink-2);
+  line-height: 1.7;
+  margin-top: 12px;
+}
+
+.showcase-image {
+  width: 100%;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-3d);
+}
+
+.showcase-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.showcase-image:hover img {
+  transform: scale(1.03);
+}
+
+/* Tablet Breakpoint */
+@media (min-width: 768px) {
+  .showcase-wrapper {
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  }
+
+  .showcase-content {
+    padding: 20px;
+  }
+
+  .showcase-image {
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .showcase-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+/* Desktop Breakpoint */
+@media (min-width: 1024px) {
+  .showcase-wrapper {
+    gap: 80px;
+  }
+
+  .showcase-image {
+    height: 450px;
+  }
+
+  .showcase-content h2 {
+    font-size: 44px;
+  }
+}

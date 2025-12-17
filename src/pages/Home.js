@@ -1,4 +1,5 @@
 import Hero from '../components/Hero';
+import showcaseImg from '../assests/photo2.jpeg';
 import { useEffect } from 'react';
 
 const services = [
@@ -47,6 +48,25 @@ export default function Home(){
   return (
     <div>
       <Hero />
+      
+      {/* Image Showcase Section */}
+      <section className="section">
+        <div className="container">
+          <div className="showcase-wrapper">
+            <div className="showcase-content reveal">
+              <h2 className="title-accent">Our Operations</h2>
+              <p className="muted mt-2">Professional scaffolding systems and construction materials you can trust</p>
+              <p className="mt-4">With years of experience in the construction industry, A.S.& Co provides premium quality materials and equipment. Our team ensures reliable delivery and expert support for all your project needs.</p>
+              <a className="btn primary btn-3d mt-4" href="/services">
+                <i className="fas fa-arrow-right"></i> Explore Our Services
+              </a>
+            </div>
+            <div className="showcase-image reveal">
+              <img src={showcaseImg} alt="A.S.& Co Operations" />
+            </div>
+          </div>
+        </div>
+      </section>
       
       <section className="section" id="services">
         <div className="container">
