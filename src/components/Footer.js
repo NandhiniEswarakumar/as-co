@@ -58,25 +58,21 @@ export default function Footer(){
               Contact Info
             </h4>
             <div className="mt-2 space-y muted" style={{fontSize: '0.9375rem', lineHeight: '1.8'}}>
-              <div style={{display: 'flex', alignItems: 'start', gap: '8px'}}>
-                <i className="fas fa-phone" style={{color: 'var(--primary)', marginTop: '2px', fontSize: '0.875rem', minWidth: '16px'}}></i>
+              
+              <div style={{display: 'flex', alignItems: 'flex-start', gap: '12px'}}>
+                <i className="fas fa-mobile-alt" style={{color: 'var(--primary)', marginTop: '4px', fontSize: '1rem', minWidth: '20px'}}></i>
                 <div>
-                  <div style={{fontWeight: '600', color: 'var(--text-primary)'}}>Office</div>
-                  <a href="tel:+914212421087" style={{color: 'inherit'}}>0421-2421087</a>
+                  <div style={{fontWeight: '600', color: 'var(--text-primary)', marginBottom: '4px'}}>Mobile</div>
+                  <a href="tel:+919443142580" style={{color: 'inherit', display: 'block'}}>9443142580</a>
+                  <a href="tel:+919750142580" style={{color: 'inherit', display: 'block'}}>9750142580</a>
                 </div>
               </div>
-              <div style={{display: 'flex', alignItems: 'start', gap: '8px'}}>
-                <i className="fas fa-mobile-alt" style={{color: 'var(--primary)', marginTop: '2px', fontSize: '0.875rem', minWidth: '16px'}}></i>
+              
+              <div style={{display: 'flex', alignItems: 'flex-start', gap: '12px'}}>
+                <i className="fas fa-map-pin" style={{color: 'var(--primary)', marginTop: '4px', fontSize: '1rem', minWidth: '20px'}}></i>
                 <div>
-                  <div style={{fontWeight: '600', color: 'var(--text-primary)'}}>Mobile</div>
-                  <a href="tel:+919443142580" style={{color: 'inherit'}}>94431-42580</a>
-                </div>
-              </div>
-              <div style={{display: 'flex', alignItems: 'start', gap: '8px'}}>
-                <i className="fas fa-map-pin" style={{color: 'var(--primary)', marginTop: '2px', fontSize: '0.875rem', minWidth: '16px'}}></i>
-                <div>
-                  <div style={{fontWeight: '600', color: 'var(--text-primary)'}}>Location</div>
-                  <span>Tiruppur, Tamil Nadu</span>
+                  <div style={{fontWeight: '600', color: 'var(--text-primary)', marginBottom: '4px'}}>Location</div>
+                  <span style={{display: 'block'}}>Tiruppur, Tamil Nadu</span>
                 </div>
               </div>
             </div>

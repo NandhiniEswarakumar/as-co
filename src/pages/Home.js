@@ -1,5 +1,11 @@
 import Hero from '../components/Hero';
 import showcaseImg from '../assests/photo2.jpeg';
+import gallery1 from '../assests/photo5.jpeg';
+import gallery2 from '../assests/photo7.jpeg';
+import gallery3 from '../assests/photo9.jpeg';
+import gallery4 from '../assests/photo11.jpeg';
+import gallery5 from '../assests/photo13.jpeg';
+import gallery6 from '../assests/photo15.jpeg';
 import { useEffect } from 'react';
 
 const services = [
@@ -90,6 +96,37 @@ export default function Home(){
             <a className="btn accent btn-3d" href="/contact">
               <i className="fas fa-file-invoice"></i> Request Pricing
             </a>
+          </div>
+        </div>
+      </section>
+      
+      {/* Gallery Section */}
+      <section className="section" style={{background: '#ffffff'}}>
+        <div className="container">
+          <div className="center">
+            <h2 className="title-accent">Our Projects in Action</h2>
+            <p className="muted mt-2">Quality materials making a difference on construction sites</p>
+          </div>
+          
+          <div className="photo-gallery mt-6">
+            <div className="gallery-item reveal">
+              <img src={gallery1} alt="Construction Project 1" />
+            </div>
+            <div className="gallery-item reveal">
+              <img src={gallery2} alt="Construction Project 2" />
+            </div>
+            <div className="gallery-item reveal">
+              <img src={gallery3} alt="Construction Project 3" />
+            </div>
+            <div className="gallery-item reveal">
+              <img src={gallery4} alt="Construction Project 4" />
+            </div>
+            <div className="gallery-item reveal">
+              <img src={gallery5} alt="Construction Project 5" />
+            </div>
+            <div className="gallery-item reveal">
+              <img src={gallery6} alt="Construction Project 6" />
+            </div>
           </div>
         </div>
       </section>

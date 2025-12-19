@@ -1,7 +1,19 @@
 import centeringImg from '../assests/photo1.jpeg';
 import scaffoldingImg from '../assests/photo2.jpeg';
 import equipmentImg from '../assests/photo3.jpeg';
-import servicesHero from '../assests/photo 4.jpeg';
+import servicesHero from '../assests/photo2.jpeg';
+import photo5 from '../assests/photo5.jpeg';
+import photo6 from '../assests/photo6.jpeg';
+import photo7 from '../assests/photo7.jpeg';
+import photo8 from '../assests/photo8.jpeg';
+import photo9 from '../assests/photo9.jpeg';
+import photo10 from '../assests/photo10.jpeg';
+import photo11 from '../assests/photo11.jpeg';
+import photo12 from '../assests/photo12.jpeg';
+import photo13 from '../assests/photo13.jpeg';
+import photo14 from '../assests/photo14.jpeg';
+import photo15 from '../assests/photo15.jpeg';
+import photo16 from '../assests/photo16.jpeg';
 
 export default function Services(){
   const categories = [
@@ -89,6 +101,65 @@ export default function Services(){
             </div>
             <h3>Professional Consultation</h3>
             <p>Expert guidance to help you select the right materials and equipment for your specific construction needs.</p>
+          </div>
+        </div>
+
+        {/* Photo Gallery Section */}
+        <div className="mt-10">
+          <div className="center">
+            <h2 className="title-accent">Our Work Gallery</h2>
+            <p className="muted mt-2">See our equipment and materials in action across various projects</p>
+          </div>
+          
+          <div className="services-photo-gallery mt-6">
+            <div className="gallery-card">
+              <img src={centeringImg} alt="Centering Materials" />
+            </div>
+            <div className="gallery-card">
+              <img src={scaffoldingImg} alt="Scaffolding Systems" />
+            </div>
+            <div className="gallery-card">
+              <img src={equipmentImg} alt="Construction Equipment" />
+            </div>
+            <div className="gallery-card">
+              <img src={servicesHero} alt="Construction Site" />
+            </div>
+            <div className="gallery-card">
+              <img src={photo5} alt="Project Work 1" />
+            </div>
+            <div className="gallery-card">
+              <img src={photo6} alt="Project Work 2" />
+            </div>
+            <div className="gallery-card">
+              <img src={photo7} alt="Project Work 3" />
+            </div>
+            <div className="gallery-card">
+              <img src={photo8} alt="Project Work 4" />
+            </div>
+            <div className="gallery-card">
+              <img src={photo9} alt="Project Work 5" />
+            </div>
+            <div className="gallery-card">
+              <img src={photo10} alt="Project Work 6" />
+            </div>
+            <div className="gallery-card">
+              <img src={photo11} alt="Project Work 7" />
+            </div>
+            <div className="gallery-card">
+              <img src={photo12} alt="Project Work 8" />
+            </div>
+            <div className="gallery-card">
+              <img src={photo13} alt="Project Work 9" />
+            </div>
+            <div className="gallery-card">
+              <img src={photo14} alt="Project Work 10" />
+            </div>
+            <div className="gallery-card">
+              <img src={photo15} alt="Project Work 11" />
+            </div>
+            <div className="gallery-card">
+              <img src={photo16} alt="Project Work 12" />
+            </div>
           </div>
         </div>
 

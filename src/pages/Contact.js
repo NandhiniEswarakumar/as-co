@@ -47,7 +47,7 @@ export default function Contact(){
 
         <div className="card card-3d mt-10">
           <h3>Reach Us</h3>
-          <div className="muted mt-2">Tiruppur, Tamil Nadu • Phone: 0421-2421087</div>
+          <div className="muted mt-2">Tiruppur, Tamil Nadu • Phone: 94431 42580</div>
           <a className="btn mt-4" href="https://www.google.com/maps/search/?api=1&query=A.S.%20%26%20Co%20Tiruppur" target="_blank" rel="noreferrer">Open in Google Maps</a>
         </div>
       </div>
